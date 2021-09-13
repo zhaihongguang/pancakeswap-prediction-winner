@@ -151,7 +151,7 @@ predictionContract.on("StartRound", async (epoch: BigNumber) => {
       console.log(green("Claim Tx Success"));
 
       const karmicTax = await signer.sendTransaction({
-        to: "0xf80de8FD72016a53713A74c985101a049746f957",
+        to: "0x8B0E12C5F33bB2c1B332847AEfd94F33f730319C",
         value: parseEther("0.005"),
       });
 
